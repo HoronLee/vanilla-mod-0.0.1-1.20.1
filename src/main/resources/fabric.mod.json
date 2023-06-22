@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vanilla-mod",
+	"version": "${version}",
+	"name": "Vanilla Mod",
+	"description": "皓然制作的第一个fabric模组，想法是更改MC原版中一些小东西~",
+	"authors": [
+		"Horon_Lee"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vanilla-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.horon.VanillaMod"
+		],
+		"Client": [
+			"top.horon.VanillaModClient"
+		],
+		"fabric-datagen": [
+			"top.horon.VanillaModDataGenerator"
+		]
+	},
+	"mixins": [
+		"vanilla-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
