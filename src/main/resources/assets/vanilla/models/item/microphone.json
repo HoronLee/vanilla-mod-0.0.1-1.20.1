@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "vanilla-mod:item/fired_rotten_flesh"
+    "layer0": "vanilla:item/microphone"
   }
 }

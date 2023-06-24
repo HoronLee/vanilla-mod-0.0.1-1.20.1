@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "vanilla-mod",
-	"version": "${version}",
-	"name": "Vanilla Mod",
+	"id": "vanilla",
+	"version": "0.0.1",
+	"name": "Vanilla",
 	"description": "皓然制作的第一个fabric模组，想法是更改MC原版中一些小东西~",
 	"authors": [
 		"Horon_Lee"
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/HoronLee/vanilla-mod-0.0.1-1.20.1"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/vanilla-mod/icon.png",
+	"icon": "assets/vanilla/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
